@@ -19,6 +19,8 @@ submitEl.addEventListener("click", function (event) {
     
     const blogs = JSON.parse(localStorage.getItem("blogs"));
     if (blogs===null) {
+        //.setItem to store objevt in storage
+        //JSON.stringify to convert it as a string
         localStorage.setItem("blogs", JSON.stringify([blog]));
     } else {
         blogs.push(blog);
