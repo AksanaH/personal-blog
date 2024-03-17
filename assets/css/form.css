@@ -11,14 +11,21 @@
     align-items: center;
 }
 .icon {
-    font-size: 36px;
+    font-size: 20px;
     margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    background-color: grey;
+    cursor: pointer;
 }
 
 .circle {
     height: 400px;
     width: 400px;
-    background-color: orange;
+    background-image: linear-gradient(rgb(241, 244, 93), rgb(144, 144, 99));
     border-radius: 50%;
     margin: 100px auto;
 }
@@ -81,9 +88,22 @@ button {
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    
+    color: white;
+    background-color: black; 
 }
 
 #content {
     height: 100px;
+}
+
+
+.dark {
+    background-color:#243447;
+    color: #bebebe
+   
+}
+
+.light {
+    background-color: white;
+    color: black;
 }
